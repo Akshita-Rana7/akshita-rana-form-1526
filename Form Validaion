@@ -1,0 +1,88 @@
+<!-- html code starts here -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+   
+    <title>Form</title>
+</head>
+
+<!-- body starts -->
+
+<body>
+
+    <!-- wrapper starts -->
+    <div class="wrapper">
+
+        <!-- navigation menu -->
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1 class="main">Form Assignment</h1>
+        </header>
+        <!-- form -->
+        <main>
+            <div class="form">
+                <form action="index.php" method="POST">
+
+                    <div class="texts">
+                        <div class="fullname">
+                            <label for="fname">Full Name</label>
+                            <input type="text" id="fname" name="fname">
+                        </div>
+                        <div class="mail">
+                            <label for="mail">Email</label>
+                            <input type="mail" id="email" name="mail">
+                        </div>
+                    </div>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"></textarea>
+
+
+                    <button class="press" type="button" id="button" value="submit">Submit</button>
+                </form>
+                <script src="/js/index.js"></script>
+            </div>
+        </main>
+        <!-- form html end -->
+
+        <!-- footer -->
+        <footer>
+
+            <h1 class="myname">Akshita Rana</h1>
+            <P class="address">31 E deerfield drive ON K2G 3R7</P>
+            <p class="number">+1 6137997131</p>
+
+            <div class="foot">
+                <nav>
+                    <ul>
+                        <li><a href="#">Youtube</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="https://www.linkedin.com/in/akshita-rana-3083a11b5/">Linkedin</a></li>
+                        <li><a href="#">Facebook</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+
+        <!-- footer html end -->
+
+       
+    </div>
+    <!-- wrapper ends -->
+</body>
+<!-- bod ends -->
+
+</html>
+
+<!-- html code ends -->
