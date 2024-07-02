@@ -1,0 +1,176 @@
+/* main body css */
+body {
+    background-image: url(../image/pexels-pixabay-414660.jpg);
+    background-repeat: no-repeat;
+}
+
+/* content center css */
+.wrapper {
+    max-width: 50rem;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+/* nav ul css */
+.nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 20px;
+    background-color: #DDD;
+}
+
+/* nav li css */
+.nav li {
+    display: flex;
+    font-weight: bolder;
+
+}
+
+/* nav a css */
+.nav a {
+    text-decoration: none;
+    color: black;
+
+}
+
+/* h1 main css */
+.main {
+    padding: 5px;
+    outline: 2px solid #6495ED;
+    width: fit-content;
+    background-color: #DDD;
+    color: black;
+}
+
+/* form bg css */
+.form {
+    padding: 10px;
+    background-color: #DDD;
+}
+
+.texts {
+    display: flex;
+    gap: 6rem;
+}
+
+/* form label css */
+label {
+    padding: 10px;
+    color: black;
+
+}
+
+/* form input css*/
+input[type=text],
+input[type=mail],
+textarea,
+select {
+    width: 100%;
+    line-height: 1.5rem;
+    margin: 4px auto;
+    border: 3px solid #6495ED;
+    border-radius: 4px;
+    font-size: 18px;
+    height: 3rem;
+}
+
+/* textarea box css */
+textarea {
+    height: 10rem;
+}
+
+/* button press css  */
+.press {
+    background-color: #159b3b;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.press:hover {
+    opacity: 1
+}
+
+/* footer css  */
+footer {
+    text-align: center;
+    background-color: #DDD;
+}
+
+/* footer social link style */
+.foot a {
+    color: black;
+}
+/* footer socials css   */
+.foot ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 20px;
+    background-color: #F5F5F5;
+
+
+}
+
+.foot li {
+    display: flex;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+/* mobile media query */
+@media only screen and  (max-width: 25rem) {
+    /* mobile nav */
+    .nav ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .nav li {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    /* mobile view form */
+    .form {
+        padding: 20px;
+    }
+
+    .texts {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .foot ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foot li {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
